@@ -1,0 +1,16 @@
+﻿<Window x:Class="Integrative_Systems_Solution.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Integrative_Systems_Solution"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Height="50" VerticalAlignment="Top" Margin="0,50,0,0" HorizontalAlignment="Center" >
+            <Button Content="Note" MinWidth="400" FontFamily="Arial" FontSize="24"/>
+            <Button Content="Sign In" MinWidth="400" FontFamily="Arial" FontSize="24"/>
+        </StackPanel>
+        <Frame x:Name="mainFrame" Margin="0,100,0,0" NavigationUIVisibility="Hidden" />
+    </Grid>
+</Window>
