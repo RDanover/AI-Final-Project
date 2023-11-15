@@ -9,6 +9,8 @@
       Title="Calculating">
 
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Calculating . . ." VerticalAlignment="Center" Height="68" Width="276" FontFamily="Arial" FontSize="36" TextAlignment="Center"/>
+        <Button Content="Demo Button" HorizontalAlignment="Center" Height="53" Margin="0,264,0,0" VerticalAlignment="Top" Width="188" FontFamily="Arial" FontSize="24" Click="Button_Click" Background="Red"/>
+
     </Grid>
 </Page>

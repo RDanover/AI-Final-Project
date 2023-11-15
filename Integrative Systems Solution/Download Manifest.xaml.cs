@@ -24,5 +24,13 @@ namespace Integrative_Systems_Solution
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //reset global variables
+            MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
+            mainwindow.DumbGlobalVariable.Text = "N";
+            mainwindow.mainFrame.Navigate(new Main());
+        }
     }
 }

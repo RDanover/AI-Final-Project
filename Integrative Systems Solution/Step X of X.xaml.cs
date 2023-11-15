@@ -24,5 +24,18 @@ namespace Integrative_Systems_Solution
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
+            
+            //if not done
+            //for demo purposes commented out 
+            //mainwindow.mainFrame.Navigate(new Step_X_of_X());
+
+            //if done
+
+            mainwindow.mainFrame.Navigate(new Download_Manifest());
+        }
     }
 }

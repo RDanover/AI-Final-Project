@@ -28,14 +28,20 @@ namespace Integrative_Systems_Solution
         private void Load_Unload_Click(object sender, RoutedEventArgs e)
         {
             //tell backend we are doing a load operation and know to load the corresponding pages 
+            //set global variable
+            
             MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
+            mainwindow.DumbGlobalVariable.Text = "LUL";
             mainwindow.mainFrame.Navigate( new Upload_Manifest());
+
         }
 
         private void Balance_Click(object sender, RoutedEventArgs e)
         {
             //tell backend we are doing a balance operation and know to load corresponding pages 
+            //set global variable
             MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
+            mainwindow.DumbGlobalVariable.Text = "B";
             mainwindow.mainFrame.Navigate(new Upload_Manifest());
         }
     }

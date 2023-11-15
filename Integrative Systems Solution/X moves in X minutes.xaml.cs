@@ -24,5 +24,11 @@ namespace Integrative_Systems_Solution
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
+            mainwindow.mainFrame.Navigate(new Step_X_of_X());
+        }
     }
 }

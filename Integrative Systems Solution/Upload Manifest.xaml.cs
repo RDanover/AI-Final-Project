@@ -24,5 +24,29 @@ namespace Integrative_Systems_Solution
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            //pass manifest path to backend
+
+            //Check which operation were doing before moving to the next page
+            
+            MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
+
+            //balance
+            if(mainwindow.DumbGlobalVariable.Text == "B")
+            {
+                mainwindow.mainFrame.Navigate(new Calculating());
+            }
+            
+
+            //load
+            if(mainwindow.DumbGlobalVariable.Text == "LUL")
+            {
+                mainwindow.mainFrame.Navigate(new Unload_Select());
+            }
+            
+        }
     }
 }

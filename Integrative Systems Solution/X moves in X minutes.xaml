@@ -9,6 +9,8 @@
       Title="X_moves_in_X_minutes">
 
     <Grid>
-        
+        <Button Content="Confirm" HorizontalAlignment="Left" Margin="653,382,0,0" VerticalAlignment="Top" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Center" Height="85" TextWrapping="Wrap" Text="This Operation will take X moves and will take X minutes" VerticalAlignment="Center" Width="502" FontFamily="Arial" FontSize="36" TextAlignment="Center"/>
+
     </Grid>
 </Page>

@@ -23,6 +23,14 @@ namespace Integrative_Systems_Solution
         public Calculating()
         {
             InitializeComponent();
+            //stay on this page until the backend says to proceed
+            //figure out how to implement without user input
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
+            mainwindow.mainFrame.Navigate(new X_moves_in_X_minutes());
         }
     }
 }
