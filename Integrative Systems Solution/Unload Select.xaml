@@ -9,7 +9,7 @@
       Title="Unload_Select">
 
     <Grid>
-        <Button Content="Confirm" HorizontalAlignment="Left" Margin="653,382,0,0" VerticalAlignment="Top" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
+        <Button Content="Confirm" HorizontalAlignment="Right" Margin="653,382,0,0" VerticalAlignment="Bottom" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
         <TextBlock HorizontalAlignment="Center" Height="85" TextWrapping="Wrap" VerticalAlignment="Center" Width="502" FontFamily="Arial" FontSize="36" TextAlignment="Center"><Run Text="Please enter which containers you would like to un"/><Run Text="load."/></TextBlock>
 
     </Grid>

@@ -12,7 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+//TO DO: alot, get and display step details from back end also know when done,
+//check if the weight is given if not get from user, check for correct input, animation (pls no dont make me implement this ill cry) 
 namespace Integrative_Systems_Solution
 {
     /// <summary>

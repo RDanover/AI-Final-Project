@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+//TO DO: get file location from backend, display file location to user
 namespace Integrative_Systems_Solution
 {
     /// <summary>

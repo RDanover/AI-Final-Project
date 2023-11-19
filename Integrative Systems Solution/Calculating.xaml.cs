@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+//TO DO: ask backend before moving to X moves in X minutes
 namespace Integrative_Systems_Solution
 {
     /// <summary>

@@ -9,8 +9,8 @@
       Title="Main">
 
     <Grid>
-        <Button x:Name="Load_Unload" Content="Load/Unload" HorizontalAlignment="Center" VerticalAlignment="Top" Height="100" Width="300" Margin="0,100,0,0" FontFamily="Arial" FontSize="36" Click="Load_Unload_Click"/>
-        <Button x:Name="Balance" Content="Balance" HorizontalAlignment="Center" VerticalAlignment="Top" Height="100" Width="300" Margin="0,250,0,0" FontFamily="Arial" FontSize="36" Click="Balance_Click"/>
+        <Button x:Name="Load_Unload" Content="Load/Unload" HorizontalAlignment="Center" VerticalAlignment="Top" Height="100" Width="500" FontFamily="Arial" FontSize="36" Click="Load_Unload_Click" Margin="0,125,0,0"/>
+        <Button x:Name="Balance" Content="Balance" HorizontalAlignment="Center" VerticalAlignment="Top" Height="100" Width="500" Margin="0,287,0,0" FontFamily="Arial" FontSize="36" Click="Balance_Click"/>
 
 
     </Grid>

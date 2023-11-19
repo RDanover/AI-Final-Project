@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+//TO DO: update all elements for fullscreen mode, send note to back end, send user name to back end, check if input is valid, 
 namespace Integrative_Systems_Solution
 {
     /// <summary>
@@ -46,6 +46,7 @@ namespace Integrative_Systems_Solution
                 string userinputname = usernameInput.Text;
                 UserNameDisplay.Text = userinputname;
                 usernameInput.Visibility = Visibility.Hidden;
+                //pass user name to back end
                 usernameInput.Text = "";
             }
 
@@ -56,6 +57,8 @@ namespace Integrative_Systems_Solution
             if(e.Key == Key.Enter)
             {
                 usernoteInput.Visibility = Visibility.Hidden;
+                //pass note info to back end
+                usernoteInput.Text = "";
             }
             
         }

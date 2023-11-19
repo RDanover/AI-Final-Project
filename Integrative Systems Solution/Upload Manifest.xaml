@@ -9,7 +9,7 @@
       Title="Upload_Manifest">
 
     <Grid>
-        <Button Content="Confirm" HorizontalAlignment="Left" Margin="653,382,0,0" VerticalAlignment="Top" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
+        <Button Content="Confirm" HorizontalAlignment="Right" Margin="653,382,0,0" VerticalAlignment="Bottom" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Upload Manifest for the operation" VerticalAlignment="Center" Width="362" FontFamily="Arial" FontSize="24" TextAlignment="Center"/>
 
     </Grid>

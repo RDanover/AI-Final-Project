@@ -9,7 +9,7 @@
       Title="Step_X_of_X">
 
     <Grid>
-        <Button Content="Confirm" Margin="653,382,0,0" VerticalAlignment="Top" Height="68" FontFamily="Arial" FontSize="24" Click="Button_Click" HorizontalAlignment="Left" Width="147"/>
+        <Button Content="Confirm" Margin="653,382,0,0" VerticalAlignment="Bottom" Height="68" FontFamily="Arial" FontSize="24" Click="Button_Click" HorizontalAlignment="Right" Width="147"/>
         <TextBlock HorizontalAlignment="Left" Margin="38,37,0,0" TextWrapping="Wrap" Text="Step /X/ of /X/" VerticalAlignment="Top" Height="45" Width="283" FontFamily="Arial" FontSize="36"/>
         <TextBlock HorizontalAlignment="Left" Margin="38,103,0,0" TextWrapping="Wrap" Text="Move /Container/ from /location/ to /location/" VerticalAlignment="Top" Height="95" Width="579" FontFamily="Arial" FontSize="24"/>
 

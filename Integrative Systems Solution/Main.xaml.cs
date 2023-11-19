@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+//TO DO: send operation choice to back end
 namespace Integrative_Systems_Solution
 {
     /// <summary>

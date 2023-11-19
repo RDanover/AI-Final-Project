@@ -12,7 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+//TO DO: alot, implement ability to select mulitple containers using check boxes and display to user, scroll bar for these displayed conatiners (maybe),
+// send and recieve all container to back end using a data structure (undecided which yet)
 namespace Integrative_Systems_Solution
 {
     /// <summary>
