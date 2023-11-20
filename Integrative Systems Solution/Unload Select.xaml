@@ -10,7 +10,9 @@
 
     <Grid>
         <Button Content="Confirm" HorizontalAlignment="Right" Margin="653,382,0,0" VerticalAlignment="Bottom" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Center" Height="85" TextWrapping="Wrap" VerticalAlignment="Center" Width="502" FontFamily="Arial" FontSize="36" TextAlignment="Center"><Run Text="Please enter which containers you would like to un"/><Run Text="load."/></TextBlock>
-
+        <TextBlock HorizontalAlignment="Left" Height="85" TextWrapping="Wrap" VerticalAlignment="Top" Width="902" FontFamily="Arial" FontSize="36" TextAlignment="Center" Margin="10,10,0,0"><Run Text="Please select which containers you would like to un"/><Run Text="load."/></TextBlock>
+        <ScrollViewer x:Name="ContainerViewer" Margin="10,80,184,0">
+            
+        </ScrollViewer>
     </Grid>
 </Page>

@@ -10,7 +10,7 @@
 
     <Grid>
         <Button Content="Confirm" HorizontalAlignment="Right" Margin="653,382,0,0" VerticalAlignment="Bottom" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="/manifest name here/ has been written to /location here/. Please send to Captain." VerticalAlignment="Center" FontFamily="Arial" FontSize="36" Height="94" Width="690" TextAlignment="Center"/>
+        <TextBlock x:Name="Display_Location" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Arial" FontSize="36" Height="94" Width="690" TextAlignment="Center" Margin="0,131,0,0"/>
 
     </Grid>
 </Page>

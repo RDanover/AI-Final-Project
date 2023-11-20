@@ -59,10 +59,26 @@ namespace Integrative_Systems_Solution
             {
                 string filepath = dialog.FileName;
                 //give this path to backend
-                string filename = dialog.SafeFileName;
+                string filename = RemoveFileExtension(dialog.SafeFileName);
+
                 mainwindow.ManifestNameDisplay.Text = filename;
             }
 
+        }
+
+        private string RemoveFileExtension(string name)
+        {
+            // Find the position of the last dot (if any)
+            int lastDotIndex = name.LastIndexOf('.');
+
+            // If there is a dot, extract the substring before it
+            if (lastDotIndex != -1)
+            {
+                return name.Substring(0, lastDotIndex);
+            }
+
+            // If no dot is found, return the original string
+            return name;
         }
     }
 }

@@ -48,14 +48,14 @@ public static class CppInterop
 
     //Container Functions
     [DllImport(CppDllPath)]
-    public static extern IntPtr ConstructContainer(string l, string d, uint w);
+    public static extern IntPtr ConstructContainer(string l, string d, int w);
     [DllImport(CppDllPath)]
     public static extern string GetContainerLocation(IntPtr c);
     [DllImport(CppDllPath)]
     public static extern string GetContainerDescription(IntPtr c);
     [DllImport(CppDllPath)]
-    public static extern uint GetContainerWeight(IntPtr c);
+    public static extern int GetContainerWeight(IntPtr c);
     [DllImport(CppDllPath)]
-    public static extern void SetContainerWeight(IntPtr c, uint w);
+    public static extern void SetContainerWeight(IntPtr c, int w);
 }
 
