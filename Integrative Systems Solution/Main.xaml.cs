@@ -31,7 +31,7 @@ namespace Integrative_Systems_Solution
             //set global variable
             
             MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
-            mainwindow.DumbGlobalVariable.Text = "LUL";
+            mainwindow.GlobalVariable.Text = "LUL";
             mainwindow.mainFrame.Navigate( new Upload_Manifest());
 
         }
@@ -41,7 +41,7 @@ namespace Integrative_Systems_Solution
             //tell backend we are doing a balance operation and know to load corresponding pages 
             //set global variable
             MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
-            mainwindow.DumbGlobalVariable.Text = "B";
+            mainwindow.GlobalVariable.Text = "B";
             mainwindow.mainFrame.Navigate(new Upload_Manifest());
         }
     }

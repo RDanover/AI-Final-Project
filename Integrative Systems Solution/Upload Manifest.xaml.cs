@@ -7,6 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using WinForms = System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -36,18 +37,36 @@ namespace Integrative_Systems_Solution
             MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
 
             //balance
-            if(mainwindow.DumbGlobalVariable.Text == "B")
+            if(mainwindow.GlobalVariable.Text == "B")
             {
                 mainwindow.mainFrame.Navigate(new Calculating());
             }
             
 
             //load
-            if(mainwindow.DumbGlobalVariable.Text == "LUL")
+            if(mainwindow.GlobalVariable.Text == "LUL")
             {
                 mainwindow.mainFrame.Navigate(new Unload_Select());
             }
             
+        }
+
+        private void FileSelect_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
+
+            WinForms.OpenFileDialog dialog = new WinForms.OpenFileDialog();
+            dialog.Filter = "Text Files | *.txt";
+            WinForms.DialogResult result = dialog.ShowDialog();
+
+            if(result == WinForms.DialogResult.OK)
+            {
+                string filepath = dialog.FileName;
+                //give this path to backend
+                string filename = dialog.SafeFileName;
+                mainwindow.ManifestNameDisplay.Text = filename;
+            }
+
         }
     }
 }

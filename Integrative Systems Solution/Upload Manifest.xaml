@@ -10,7 +10,8 @@
 
     <Grid>
         <Button Content="Confirm" HorizontalAlignment="Right" Margin="653,382,0,0" VerticalAlignment="Bottom" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Upload Manifest for the operation" VerticalAlignment="Center" Width="362" FontFamily="Arial" FontSize="24" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Upload Manifest for the operation" VerticalAlignment="Top" Width="362" FontFamily="Arial" FontSize="36" TextAlignment="Center" Margin="0,120,0,0"/>
+        <Button x:Name="FileSelect" Content="Select File" HorizontalAlignment="Center" Height="67" Margin="0,225,0,0" VerticalAlignment="Top" Width="230" Click="FileSelect_Click" FontSize="24" FontFamily="Arial"/>
 
     </Grid>
 </Page>

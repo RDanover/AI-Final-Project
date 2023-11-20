@@ -29,7 +29,8 @@ namespace Integrative_Systems_Solution
         {
             //reset global variables
             MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
-            mainwindow.DumbGlobalVariable.Text = "N";
+            mainwindow.GlobalVariable.Text = "N";
+            mainwindow.ManifestNameDisplay.Text = " ";
             mainwindow.mainFrame.Navigate(new Main());
         }
     }
