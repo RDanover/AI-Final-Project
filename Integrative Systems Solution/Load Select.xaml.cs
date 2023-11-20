@@ -12,8 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-//TO DO: Implement ability to add mulitple containers and display to user, scroll bar for these displayed conatiners (maybe),
-//check input for valid input, send all container to back end using a data structure (undecided which yet)
+//TO DO: check input for valid input, send all container to back end using a data structure (undecided which yet)
 namespace Integrative_Systems_Solution
 {
 
