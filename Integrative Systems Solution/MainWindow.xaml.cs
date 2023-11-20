@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-//TO DO: update all elements for fullscreen mode, send note to back end, send user name to back end, check if input is valid, 
+//TO DO:  Send note to back end, send user name to back end, check if input is valid
 namespace Integrative_Systems_Solution
 {
     /// <summary>

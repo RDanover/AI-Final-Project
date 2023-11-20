@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 //TO DO: get file location from backend, display file location to user
 namespace Integrative_Systems_Solution
 {
-    /// <summary>
-    /// Interaction logic for Download_Manifest.xaml
-    /// </summary>
     public partial class Download_Manifest : Page
     {
         public Download_Manifest()

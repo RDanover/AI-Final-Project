@@ -13,13 +13,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-//TO DO: alot, implement ability for user to open file explorer, sent file or file location to backend,
-//using filename update manifest name in top corner
+//TO DO:  Send file path to backend
 namespace Integrative_Systems_Solution
 {
-    /// <summary>
-    /// Interaction logic for Upload_Manifest.xaml
-    /// </summary>
     public partial class Upload_Manifest : Page
     {
         public Upload_Manifest()

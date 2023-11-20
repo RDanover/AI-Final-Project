@@ -12,12 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-//TO DO: ask backend before moving to X moves in X minutes
+//TO DO: ask backend before moving to X moves in X minutes, potentially remove this page and instead hide and unhide elements on x moves in x minutes page
 namespace Integrative_Systems_Solution
 {
-    /// <summary>
-    /// Interaction logic for Calculating.xaml
-    /// </summary>
+
     public partial class Calculating : Page
     {
         public Calculating()

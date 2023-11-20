@@ -12,13 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-//TO DO: alot, implement ability to add mulitple containers and display to user, scroll bar for these displayed conatiners (maybe),
+//TO DO: Implement ability to add mulitple containers and display to user, scroll bar for these displayed conatiners (maybe),
 //check input for valid input, send all container to back end using a data structure (undecided which yet)
 namespace Integrative_Systems_Solution
 {
-    /// <summary>
-    /// Interaction logic for Load_Select.xaml
-    /// </summary>
+
     public partial class Load_Select : Page
     {
         public Load_Select()

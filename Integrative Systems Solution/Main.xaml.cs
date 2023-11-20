@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 //TO DO: send operation choice to back end
 namespace Integrative_Systems_Solution
 {
-    /// <summary>
-    /// Interaction logic for Main.xaml
-    /// </summary>
     public partial class Main : Page
     {
         public Main()

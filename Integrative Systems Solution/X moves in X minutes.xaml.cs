@@ -12,12 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-// TO DO: get step # and move # from backend
+// TO DO: get step # and move # from backend, potentially remove calculating page and instead hide and unhide elements on this page
 namespace Integrative_Systems_Solution
 {
-    /// <summary>
-    /// Interaction logic for X_moves_in_X_minutes.xaml
-    /// </summary>
+
     public partial class X_moves_in_X_minutes : Page
     {
         public X_moves_in_X_minutes()
