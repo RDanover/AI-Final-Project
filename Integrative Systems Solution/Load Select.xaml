@@ -10,7 +10,12 @@
 
     <Grid>
         <Button Content="Confirm" HorizontalAlignment="Right" Margin="0,382,0,0" VerticalAlignment="Bottom" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Center" Height="85" TextWrapping="Wrap" Text="Please enter which containers you would like to load." VerticalAlignment="Center" Width="502" FontFamily="Arial" FontSize="36" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="85" TextWrapping="Wrap" Text="Please enter which containers you would like to load." VerticalAlignment="Top" Width="898" FontFamily="Arial" FontSize="36" Margin="10,23,0,0"/>
+        <TextBox x:Name="ContainerInput" HorizontalAlignment="Left" Margin="10,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="606" Height="36" FontSize="24" FontFamily="Arial" KeyDown ="ContainerInput_TextChanged"/>
+        <ScrollViewer Margin="0,144,184,0">
+            <TextBlock x:Name="ContainersList" Margin="0,0,0,0" TextWrapping="Wrap" Text="" FontFamily="Arial" FontSize="24" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+        </ScrollViewer>
+
 
     </Grid>
 </Page>

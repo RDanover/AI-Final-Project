@@ -23,9 +23,20 @@ namespace Integrative_Systems_Solution
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ContainerInput_TextChanged(object sender, KeyEventArgs e)
         {
+            if (e.Key == Key.Enter)
+            {
+                string userinputcontainer = ContainerInput.Text;
+                ContainersList.Text += userinputcontainer +"\n";
+                ContainerInput.Text = "";
+                //create new container and add it to the list
+            }
+        }
+
+            private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //send list of containers to backend
             MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
             mainwindow.mainFrame.Navigate(new X_moves_in_X_minutes());
         }
