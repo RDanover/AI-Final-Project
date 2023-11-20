@@ -8,8 +8,9 @@ using System.Security.RightsManagement;
 
 public static class CppInterop
 {
-    const string CppDllPath = "Integrative Systems Backend.dll"; // Update with your actual DLL name
+    const string CppDllPath = "Integrative Systems Backend.dll"; 
 
+    //Operation Functions
     [DllImport(CppDllPath)]
     public static extern IntPtr ConstructOperation();
     [DllImport(CppDllPath)]
@@ -34,6 +35,8 @@ public static class CppInterop
     public static extern void OperationMoveComplete(IntPtr o, int a);
     [DllImport(CppDllPath)]
     public static extern void OperationReset(IntPtr o);
+
+    //Move Functions
     [DllImport(CppDllPath)]
     public static extern IntPtr ConstructMove();
     [DllImport(CppDllPath)]
@@ -42,6 +45,8 @@ public static class CppInterop
     public static extern string GetMoveFinalLocation(IntPtr m);
     [DllImport(CppDllPath)]
     public static extern uint GetMoveTime(IntPtr m);
+
+    //Container Functions
     [DllImport(CppDllPath)]
     public static extern IntPtr ConstructContainer(string l, string d, uint w);
     [DllImport(CppDllPath)]
