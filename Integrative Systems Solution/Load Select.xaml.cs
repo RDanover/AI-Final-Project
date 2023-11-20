@@ -27,7 +27,7 @@ namespace Integrative_Systems_Solution
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
-            mainwindow.mainFrame.Navigate(new Calculating());
+            mainwindow.mainFrame.Navigate(new X_moves_in_X_minutes());
         }
     }
 }

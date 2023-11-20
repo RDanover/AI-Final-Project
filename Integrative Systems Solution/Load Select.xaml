@@ -9,7 +9,7 @@
       Title="Load_Select">
 
     <Grid>
-        <Button Content="Confirm" HorizontalAlignment="Right" Margin="653,382,0,0" VerticalAlignment="Bottom" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
+        <Button Content="Confirm" HorizontalAlignment="Right" Margin="0,382,0,0" VerticalAlignment="Bottom" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
         <TextBlock HorizontalAlignment="Center" Height="85" TextWrapping="Wrap" Text="Please enter which containers you would like to load." VerticalAlignment="Center" Width="502" FontFamily="Arial" FontSize="36" TextAlignment="Center"/>
 
     </Grid>

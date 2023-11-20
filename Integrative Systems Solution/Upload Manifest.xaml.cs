@@ -35,7 +35,7 @@ namespace Integrative_Systems_Solution
             //balance
             if(mainwindow.GlobalVariable.Text == "B")
             {
-                mainwindow.mainFrame.Navigate(new Calculating());
+                mainwindow.mainFrame.Navigate(new X_moves_in_X_minutes());
             }
             
 

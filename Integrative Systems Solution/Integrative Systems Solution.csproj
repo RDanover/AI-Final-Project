@@ -76,9 +76,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Calculating.xaml.cs">
-      <DependentUpon>Calculating.xaml</DependentUpon>
-    </Compile>
     <Compile Include="CppInterop.cs" />
     <Compile Include="Download Manifest.xaml.cs">
       <DependentUpon>Download Manifest.xaml</DependentUpon>
@@ -98,10 +95,6 @@
     <Compile Include="X moves in X minutes.xaml.cs">
       <DependentUpon>X moves in X minutes.xaml</DependentUpon>
     </Compile>
-    <Page Include="Calculating.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Download Manifest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

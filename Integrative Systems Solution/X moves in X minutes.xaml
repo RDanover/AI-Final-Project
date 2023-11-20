@@ -6,11 +6,12 @@
       xmlns:local="clr-namespace:Integrative_Systems_Solution"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="X_moves_in_X_minutes">
+      Title="X_moves_in_X_minutes"
+      Loaded = "Page_Loaded">
 
     <Grid>
-        <Button Content="Confirm" HorizontalAlignment="Right" Margin="653,382,0,0" VerticalAlignment="Bottom" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Center" Height="85" TextWrapping="Wrap" Text="This Operation will take X moves and will take X minutes" VerticalAlignment="Center" Width="502" FontFamily="Arial" FontSize="36" TextAlignment="Center"/>
+        <Button x:Name="Confirm" Content="Confirm" HorizontalAlignment="Right" Margin="653,382,0,0" VerticalAlignment="Bottom" Height="68" Width="147" FontFamily="Arial" FontSize="24" Click="Button_Click"/>
+        <TextBlock x:Name="TextDisplay" HorizontalAlignment="Center" Height="85" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="502" FontFamily="Arial" FontSize="36" TextAlignment="Center" Margin="0,140,0,0"/>
 
     </Grid>
 </Page>
