@@ -79,6 +79,7 @@
     <Compile Include="Calculating.xaml.cs">
       <DependentUpon>Calculating.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CppInterop.cs" />
     <Compile Include="Download Manifest.xaml.cs">
       <DependentUpon>Download Manifest.xaml</DependentUpon>
     </Compile>
