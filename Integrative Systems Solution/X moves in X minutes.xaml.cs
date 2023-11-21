@@ -34,7 +34,7 @@ namespace Integrative_Systems_Solution
             {
                 System.Threading.Thread.Sleep(3000);// for demo purpose only simulates time for processing
             });
-            TextDisplay.Text = "This Operation will take X moves and will take X minutes";
+            TextDisplay.Text = "This Operation will take "+ "X"+ " moves and will take "+ "X"+" minutes.";
             Confirm.Visibility = Visibility.Visible;
             Loaded -= Page_Loaded;
         }

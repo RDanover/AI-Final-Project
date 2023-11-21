@@ -21,7 +21,7 @@ namespace Integrative_Systems_Solution
         {
             MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
             InitializeComponent();
-            Display_Location.Text = mainwindow.ManifestNameDisplay.Text+"_OUTBOUND has been written to: X. Please send to Captain";
+            Display_Location.Text = mainwindow.ManifestNameDisplay.Text+ "_OUTBOUND has been written to: "+ "X"+". Please send to Captain";
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

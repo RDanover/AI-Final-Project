@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 //TO DO:  Send note to back end, send user name to back end, check if input is valid
 namespace Integrative_Systems_Solution
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
         public MainWindow()
