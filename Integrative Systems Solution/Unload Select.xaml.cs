@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-//TO DO: send and recieve all container to back end 
+//TO DO: recieve all containers from back end, send selected containers to backend
 namespace Integrative_Systems_Solution
 {
 

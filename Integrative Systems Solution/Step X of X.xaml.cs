@@ -12,8 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-//TO DO: 
-//check if the weight is given if not get from user, check for correct input, animation for container movement 
+//TO DO: check if the weight is given if not get from user, check for correct input, animation for container movement 
 namespace Integrative_Systems_Solution
 {
 

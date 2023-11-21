@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-//TO DO:  Send file path to backend
+//TO DO:  Send file path to backend, ensure user uploads a manifest before proceeding
 namespace Integrative_Systems_Solution
 {
     public partial class Upload_Manifest : Page

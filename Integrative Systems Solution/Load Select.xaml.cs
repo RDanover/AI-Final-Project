@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-//TO DO: check input for valid input, send all container to back end using a data structure (undecided which yet)
+//TO DO: check input for valid input, send all containers to back end 
 namespace Integrative_Systems_Solution
 {
 

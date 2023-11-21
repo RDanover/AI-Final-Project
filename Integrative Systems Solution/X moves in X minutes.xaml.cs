@@ -14,7 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-// TO DO: get step # and move # from backend
+// TO DO: get step # and move # from backend, create global variables for current index and list of moves 
 namespace Integrative_Systems_Solution
 {
 

@@ -19,7 +19,7 @@
         <TextBlock x:Name="GlobalVariable" HorizontalAlignment="Left" Height="35" Margin="10,10,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Width="390" FontFamily="Arial" FontSize="24" Visibility="Hidden" Grid.ColumnSpan="3"/>
         <TextBox x:Name="usernameInput" HorizontalAlignment="Right" Height="31" Margin="0,173,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="376" FontFamily="Arial" FontSize="24" KeyDown="UsernameInput_TextChanged" Grid.Column="2" Grid.ColumnSpan="2" Visibility="Hidden"/>
         <TextBox x:Name="usernoteInput" HorizontalAlignment="Left" Height="31" Margin="10,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="376" FontFamily="Arial" FontSize="24" KeyDown="UsernoteInput_TextChanged" Grid.ColumnSpan="3" Visibility="Hidden"/>
-        <Button x:Name="NoteButton" Content="Note" MinWidth="400" FontFamily="Arial" FontSize="24" Click="Button_Click_1" Grid.ColumnSpan="3" Margin="0,118,0,0" Width="400" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Button x:Name="SignInButton" Content="Sign In" MinWidth="400" FontFamily="Arial" FontSize="24" Click="Button_Click" VerticalAlignment="Top" Height="50" HorizontalAlignment="Right" Grid.ColumnSpan="2" Margin="0,118,0,0" Grid.Column="2"/>
+        <Button x:Name="NoteButton" Content="Note" MinWidth="400" FontFamily="Arial" FontSize="24" Click="Button_Click_1" Grid.ColumnSpan="3" Margin="10,118,0,0" Width="400" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="SignInButton" Content="Sign In" MinWidth="400" FontFamily="Arial" FontSize="24" Click="Button_Click" VerticalAlignment="Top" Height="50" HorizontalAlignment="Right" Grid.ColumnSpan="2" Margin="0,118,10,0" Grid.Column="2"/>
     </Grid>
 </Window>
