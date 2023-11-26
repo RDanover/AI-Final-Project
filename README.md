@@ -8,4 +8,5 @@ Demo Video of Current Progress: https://github.com/RDanover/AI-Final-Project-Fro
 
 FSM (Draft):
 
-![1](https://github.com/RDanover/AI-Final-Project-Frontend/assets/60625627/887c94e8-086f-4dac-a057-bf31d6b2b3c5)
+![image](https://github.com/RDanover/AI-Final-Project-Frontend/assets/60625627/7f9d41b5-fe6e-468f-9864-27ccce3396bd)
+
