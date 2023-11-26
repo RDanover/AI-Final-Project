@@ -24,6 +24,8 @@ public static class CppInterop
     [DllImport(CppDllPath)]
     public static extern string GetOperationManifestPath(IntPtr o);
     [DllImport(CppDllPath)]
+    public static extern string GetOperationLogPath(IntPtr o);
+    [DllImport(CppDllPath)]
     public static extern void GetOperationContainers(IntPtr o, List<IntPtr> c);
     [DllImport(CppDllPath)]
     public static extern void GetOperationMoves(IntPtr o, List<IntPtr> m);

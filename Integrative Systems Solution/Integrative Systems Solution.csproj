@@ -83,6 +83,7 @@
     <Compile Include="Load Select.xaml.cs">
       <DependentUpon>Load Select.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RecoveryData.cs" />
     <Compile Include="Step X of X.xaml.cs">
       <DependentUpon>Step X of X.xaml</DependentUpon>
     </Compile>
