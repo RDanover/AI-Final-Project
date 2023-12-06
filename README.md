@@ -1,4 +1,6 @@
 # AI-Final-Project-Frontend
+# NOTE: This project was changed from a C# WPF project to a C++ QT project please see: https://github.com/krystalpothilat/CS179MProject for current progress.
+
 
 See https://github.com/RDanover/AI-Final-Project-Backend for backend implementation
 
